@@ -1,0 +1,64 @@
+# 🔐 FICHIERS SECRETS - NE JAMAIS PARTAGER
+.env
+.env.local
+.env.production
+*.env
+
+# Environnement virtuel
+venv/
+env/
+ENV/
+.venv/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.pyc
+
+# Flask
+instance/
+.webassets-cache
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+logs/
+
+# Fichiers temporaires
+cv_temp.pdf
+rapport_*.md
+lettres_*.json
+*.tmp
+
+# Ngrok
+ngrok
+ngrok.exe
+ngrok.yml
+
+# Credentials
+*.pem
+*.key
+credentials.json
+token.json
+
+# Base de données
+*.db
+*.sqlite
+*.sqlite3
+
+# Cache
+.cache/
+*.cache
